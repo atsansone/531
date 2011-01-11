@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>My Twitter App</title>
+  <script src="modernizr.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="http://platform.twitter.com/anywhere.js?id=FZS5GhttQahhQCaltRSIA&v=1" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      $('p.warning').remove();
+    });
+    twttr.anywhere(function (T) {
+    T.hovercards({ expanded: true });
+    T("#tbox").tweetBox();
+    });
+  </script>
+</head>
+<body>
+  <p class="warning">
+    Sorry, this page
+    requires JavaScript.
+  </p>
+  <p>I am @karlstolley on Twitter.</p>
+  <p>Karl Stolley, @karlstolley
+Kelly Schaefer, @kellyaschaefer
+Brenna Scurlock, @brennascurlock
+Brenda Gail Teruel, @little_bg
+Ann Goliak, @rocketslide
+Cong Sun, @csun11</p>
+
+
+  <div id="tbox"></div>
+
+
+</body>
+</html>
