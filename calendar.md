@@ -37,6 +37,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 * In Class:
     * ...
 * To Read:
+    * 37signals, _[Getting Real](http://gettingreal.37signals.com/toc.php/)_
     * _Agile Web Development with Rails_
     * ...
 * To Do:
