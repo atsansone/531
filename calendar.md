@@ -23,7 +23,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 
 ### 1/17 - NO CLASS; MLK DAY
 
-### 1/24 - DOM Scripting & jQuery
+### 1/24 - HTML5 forms, DOM Scripting & jQuery
 * In Class:
     * Reading discussion (short): DOM, DOM Scripting
     * Git setup in the lab (``git config``)
