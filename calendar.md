@@ -25,6 +25,9 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 
 ### 1/24 - DOM Scripting & jQuery
 * In Class:
+    * Reading discussion (short): DOM, DOM Scripting
+    * Git setup in the lab (``git config``)
+    * Pair programming: Interface building with HTML5 forms + jQuery (+ Git)
     * ...
 * To Read:
     * _Pragmatic Guide to Git_, Parts 3, 5, and 6
