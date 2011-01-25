@@ -8,7 +8,13 @@
   
   <!--Write custom jQuery scripts here:-->
   <script>
-  
+  $(document).ready(function() {
+    $("#email").attr("value", "you@example.com");
+    $("#email.nofocus").focus(function() {
+      $("#email").attr("value","");
+      $("#email").removeClass("nofocus");
+    });
+  });
   </script>
 
 </head>
@@ -18,7 +24,7 @@
     <ol>
       <li>
         <label for="email">Login (Email Address)</label>
-        <input id="email" name="email" "type="email" placeholder="you@example.com" autofocus required />
+        <input class="nofocus" id="email" name="email" "type="email" placeholder="you@example.com" autofocus required />
       </li>
       <li>
         <label for="password">Password</label>
