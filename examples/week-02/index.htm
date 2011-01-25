@@ -14,14 +14,21 @@
 </head>
 <body>
   
-  <!--
-  
-  Build a form here.
-  
-  You might want to consult Chapter 4 from
-  Jeremy Keith's HTML5 for Web Designers.
-  
-  -->
+  <form action="#dummy" enctype="multipart/form-data" id="site-login">
+    <ol>
+      <li>
+        <label for="email">Login (Email Address)</label>
+        <input id="email" name="email" "type="email" placeholder="you@example.com" autofocus required />
+      </li>
+      <li>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" required />
+      </li>
+      <li>
+        <input type="submit" name="submit" value="Login" />
+      </li>
+    </ol>
+  </form>
   
 </body>
 </html>
