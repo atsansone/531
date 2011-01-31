@@ -38,9 +38,15 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 
 ### 1/31 - CSS3
 * In Class:
+    * CSS3/jQuery discussion
+    * Project 1 work time
     * ...
 * To Read:
     * 37signals, _[Getting Real](http://gettingreal.37signals.com/toc.php/)_
+    * agilemanifesto.org: [Agile Manifesto](http://agilemanifesto.org/),
+      [Principles](http://agilemanifesto.org/principles.html)
+    * Browse [Agile Alliance](http://www.agilealliance.org/resources/articles/) for
+      interesting articles; share good ones on the [wiki](http://courses.karlstolley.com/580wad/).
     * _Agile Web Development with Rails_
     * ...
 * To Do:
@@ -48,6 +54,8 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 
 ### 2/7 - Agile Methods
 * In Class:
+    * Reading discussion
+    * Project 1 work time
     * ...
 * To Read:
     * ...
@@ -73,6 +81,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 
 ### 2/28 - Ruby Web Frameworks I
 * In Class:
+    * Special Guest
     * ...
 * To Read:
     * ...
