@@ -66,6 +66,8 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 * In Class:
     * ...
 * To Read:
+    * _Programming Ruby 1.9_, Preface, Part I (esp. Getting Started; Ruby.new;
+      Classes, Objects, & Variables; Standard Types; Expressions; and More About Methods)
     * _Pragmatic Guide to Git_, Parts 4, 7, and 8
     ...
 * To Do:
