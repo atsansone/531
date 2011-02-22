@@ -42,7 +42,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
     * Project 1 work time
     * ...
 * To Read:
-    * 37signals, _[Getting Real](http://gettingreal.37signals.com/toc.php/)_
+    * 37signals, _[Getting Real](http://gettingreal.37signals.com/toc.php)_
     * agilemanifesto.org: [Agile Manifesto](http://agilemanifesto.org/),
       [Principles](http://agilemanifesto.org/principles.html)
     * Browse [Agile Alliance](http://www.agilealliance.org/resources/articles/) for
@@ -64,8 +64,14 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 
 ### 2/14 - Project One Due; Ruby I
 * In Class:
+    * Project Presentation
+    * GitHub/Git: Forking & Pull Requests
+    * Ruby syntax and concepts
     * ...
 * To Read:
+    * _Programming Ruby 1.9_, Preface, Part I (esp. Getting Started; Ruby.new;
+      Classes, Objects, & Variables; Standard Types; Expressions; and More About Methods)
+    * _Agile Web Development with Rails_, Chapter 8 (Introduction to Ruby)
     * _Pragmatic Guide to Git_, Parts 4, 7, and 8
     ...
 * To Do:
