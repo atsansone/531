@@ -21,7 +21,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 * To Do:
     * ...
 
-### 1/17 - NO CLASS; MLK DAY
+### 1/17 - NO CLASS; Martin Luther King DAY
 
 ### 1/24 - HTML5 forms, DOM Scripting & jQuery
 * In Class:
