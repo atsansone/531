@@ -79,30 +79,33 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 
 ### 2/21 - Ruby II
 * In Class:
+    * Sinatra Application
     * ...
 * To Read:
     * ...
 * To Do:
     * ...
 
-### 2/28 - Ruby Web Frameworks I
+### 2/28 - Special Guest Week
 * In Class:
     * Special Guest
     * ...
 * To Read:
+    * Agile Development with Rails, Part 1; Part 2, Tasks A - G; Part 3, Chapter 22
     * ...
 * To Do:
     * ...
 
-### 3/7 - Ruby Web Frameworks II
+### 3/7 - Ruby on Rails I
 * In Class:
+    * Agile Development with Rails, Part 2, Tasks H - K; Chapter 21; Part 3, Chapter 22-31
     * ...
 * To Do:
     * ...
 
 ### 3/14 - NO CLASS; SPRING BREAK
 
-### 3/21 - Project Work Week
+### 3/21 - Ruby on Rails II
 * In Class:
     * ...
 * To Do:
@@ -114,7 +117,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 * To Do:
     * ...
 
-### 4/4 - Project Two Due
+### 4/4 - Project Work Week
 * In Class:
     * ...
 * To Read:
@@ -122,7 +125,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 * To Do:
     * ...
 
-### 4/11 - Mobile Design I
+### 4/11 - Project 2 Due
 * In Class:
     * ...
 * To Read:
@@ -130,7 +133,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 * To Do:
     * ...
 
-### 4/18 - Mobile Design II
+### 4/18 - Mobile Design: Media Queries, jQuery, Other Stuff
 * In Class:
     * ...
 * To Do:
