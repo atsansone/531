@@ -89,6 +89,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 ### 2/28 - Special Guest Week
 * In Class:
     * Special Guest
+    * If time, setting up RVM
     * ...
 * To Read:
     * Agile Development with Rails, Part 1; Part 2, Tasks A - G; Part 3, Chapter 22
