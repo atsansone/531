@@ -2,10 +2,10 @@
 Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technology, Spring 2011
 
 ## Instructor Information
-Professor [Karl Stolley](http://karlstolley.com)  
-karl.stolley@gmail.com  
-Office: Siegel Hall 208  
-Office Hours: Monday/Tuesday 3:30-5:30 and by appointment  
+Professor [Karl Stolley](http://karlstolley.com)
+karl.stolley@gmail.com
+Office: Siegel Hall 208
+Office Hours: Monday/Tuesday 3:30-5:30 and by appointment
 
 ## Course Description
 A production-intensive course in applied theory and practice of developing
@@ -42,12 +42,12 @@ this course.
   the Document Object Model_. Friends of ED, 2005. ISBN: 978-1590595336
 * Keith, Jeremy. _HTML5 for Web Designers_. A Book Apart, 2010.
   ISBN: 978-0984442508
-* Ruby, Sam. _Agile Web Development with Rails_, 4th Ed. 
+* Ruby, Sam. _Agile Web Development with Rails_, 4th Ed.
   Pragmatic Bookshelf, 2010. ISBN: 978-1-93435-654-8
 * Swicegood, Travis. _Pragmatic Guide to Git_. Pragmatic Bookshelf, 2011.
   ISBN: 978-1-93435-654-8
 * Thomas, Dave, with Fowler, Chad and Hunt, Andy. (2009). _Programming Ruby 1.9:
-  The Pragmatic Programmers' Guide_, 3rd Ed. Pragmatic Bookshelf, 2009. 
+  The Pragmatic Programmers' Guide_, 3rd Ed. Pragmatic Bookshelf, 2009.
   ISBN: 978-1-93435-608-1
 
 ### Required Materials and Technology
@@ -70,11 +70,10 @@ this course.
 See descriptions in the Course Projects document, `projects.md`.
 
 ### Grading
-Project 1: 20pts  
-Project 2: 30pts  
-Project 3: 10pts  
-Class Participation: 40pts  
-TOTAL: 100pts  
+Project 1: 20pts
+Project 2: 30pts
+Class Participation: 50pts
+TOTAL: 100pts
 
 A = 90+ pts; B= 80-89pts; C=70-79pts; E =< 69 pts
 
