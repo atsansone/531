@@ -146,7 +146,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 * To Do:
     * ...
 
-### 5/2 - Exam Week; Final Meeting Time for Project Three Presentation TBA
+### 5/2 - Exam Week; Final Meeting Time for Project Two Presentation TBA
 
 ## License
 Course materials by [Karl Stolley](http://karlstolley.com). Licensed under a
