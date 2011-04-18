@@ -1,16 +1,5 @@
-<<<<<<< HEAD
 # Course Policies for COM531: Web Application Development
 Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technology
-=======
-# Course Policies for COM580: Web Application Development
-Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technology, Spring 2011
-
-## Instructor Information
-Professor [Karl Stolley](http://karlstolley.com)
-karl.stolley@gmail.com
-Office: Siegel Hall 208
-Office Hours: Monday/Tuesday 3:30-5:30 and by appointment
->>>>>>> a0e859825edd9198c03fae3c5cb075a4defde7f3
 
 ## Course Description
 A production-intensive course in applied theory and practice of developing
@@ -56,11 +45,7 @@ this course.
   Pragmatic Bookshelf, 2010. ISBN: 978-1-93435-654-8
 * Swicegood, Travis. _Pragmatic Guide to Git_. Pragmatic Bookshelf, 2011.
   ISBN: 978-1-93435-654-8
-<<<<<<< HEAD
 * Thomas, Dave, with Fowler, Chad and Hunt, Andy. _Programming Ruby 1.9:
-=======
-* Thomas, Dave, with Fowler, Chad and Hunt, Andy. (2009). _Programming Ruby 1.9:
->>>>>>> a0e859825edd9198c03fae3c5cb075a4defde7f3
   The Pragmatic Programmers' Guide_, 3rd Ed. Pragmatic Bookshelf, 2009.
   ISBN: 978-1-93435-608-1
 
