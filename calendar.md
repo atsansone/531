@@ -89,6 +89,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 ### 2/28 - Special Guest Week
 * In Class:
     * Special Guest
+    * If time, setting up RVM
     * ...
 * To Read:
     * Agile Development with Rails, Part 1; Part 2, Tasks A - G; Part 3, Chapter 22
@@ -125,7 +126,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 * To Do:
     * ...
 
-### 4/11 - Project 2 Due
+### 4/11 - Project 2 In-Progress Presentations; Work Week
 * In Class:
     * ...
 * To Read:
@@ -145,7 +146,7 @@ Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technolo
 * To Do:
     * ...
 
-### 5/2 - Exam Week; Final Meeting Time for Project Presentation TBA
+### 5/2 - Exam Period (7:30-9:30pm); Project 2 Final Presentations
 
 ## License
 Course materials by [Karl Stolley](http://karlstolley.com). Licensed under a
