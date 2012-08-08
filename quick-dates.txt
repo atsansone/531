@@ -1,0 +1,42 @@
+August
+22 The Whole Semester in One Night
+	L2P
+	AgDev
+29 Models & Data
+	L2P
+	AgDev
+September
+5  Views & Assets
+	AgDev
+12 Controllers & Routes
+19 
+26
+October
+3
+10
+17
+24
+31
+November
+7
+14
+21 - THANKSGIVING
+28
+
+Books
+
+Learn to Program (Ruby) :: language basics
+Agile Dev w/ Rails :: framework basics
+
+Guide to Sass :: new language, assets
+Rails View  :: deeper concepts with views
+
+Rails Recipes :: deeper Rails concepts generally -> sprinkle throughout?
+
+Eloquent JavaScript  :: new syntax, JS practices & style
+*Need some kind of jQuery text/set of readings.
+CoffeeScript :: interactivity
+
+
+
+
