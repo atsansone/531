@@ -3,27 +3,37 @@
 	L2P
 	AgDev
 29 Scaffolding & The Anatomy of a Rails App; Core principles CRUD and DRY
-	L2P
 	AgDev
 
 ### September
 5  Models & Data
+  AgDev
+  Rails View
 12 Views & Assets
 	AgDev
+	Rails View
 19 Controllers & Routes
-26 Working with Gems, Bundler, and the Gem File
+  Guide to Sass
+26  NO CLASS - Stolley at CPTSC
 
 ### October
-3  Alpha App Due; Presentations
-10 Twitter Bootstrap, Zurb Foundation and other Front-End Frameworks
+3  Alpha App Due; Presentations. Working with Gems, Bundler, and the Gem File
+  Rails View
+  Rails Rec
+10 Twitter Bootstrap, Zurb Foundation and other Front-End Frameworks; Sass
+  EloJS
+  CoffeeScript
 17 Eloquent JavaScript & CoffeeScript
+  EloJS
+  CoffeeScript
 24 AJAX & pjax
+  Rails Rec
 31 Rails Recipes I
-
+  Rails Rec
 ### November
 7  Rails Recipes II
 14 Deploying Rails Apps
-21 THANKSGIVING
+21 NO CLASS - THANKSGIVING
 28 Work Week
 
 Books
