@@ -1,27 +1,30 @@
-August
+### August
 22 The Whole Semester in One Night
 	L2P
 	AgDev
-29 Models & Data
+29 Scaffolding & The Anatomy of a Rails App; Core principles CRUD and DRY
 	L2P
 	AgDev
-September
-5  Views & Assets
+
+### September
+5  Models & Data
+12 Views & Assets
 	AgDev
-12 Controllers & Routes
-19 
-26
-October
-3
-10
-17
-24
-31
-November
-7
-14
-21 - THANKSGIVING
-28
+19 Controllers & Routes
+26 Working with Gems, Bundler, and the Gem File
+
+### October
+3  Alpha App Due; Presentations
+10 Twitter Bootstrap, Zurb Foundation and other Front-End Frameworks
+17 Eloquent JavaScript & CoffeeScript
+24 AJAX & pjax
+31 Rails Recipes I
+
+### November
+7  Rails Recipes II
+14 Deploying Rails Apps
+21 THANKSGIVING
+28 Work Week
 
 Books
 
