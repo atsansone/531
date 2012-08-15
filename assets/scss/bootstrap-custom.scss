@@ -9,6 +9,30 @@ $serifFontFamily:       "ff-tisa-web-pro", Georgia, "Times New Roman", Times, se
 // Then go nuts adding custom styles and stuff...
 
 // EXTENSIONS
-// Keeping my HTML simple, at the expense of a bigger stylesheet...
+// Keeping my HTML simple, rather than run wild with all of the Bootstrap classes...
 
-dd > ul { @extend ul.unstyled; } // Keep the calendar sub-headings bullet-free
+dt {
+  @extend h3;
+  border-bottom: 1px solid $grayLight;
+  margin-bottom: $baseLineHeight - 1;
+  time {
+    @extend small;
+    font-size: 75%;
+  }
+}
+
+dd {
+  dt + & {
+    margin-bottom: $baseLineHeight;
+  }
+  h2 {
+    @extend h4;
+    text-transform: uppercase;
+  }
+  > ul {
+    @extend ul.unstyled; // Keep the calendar sub-headings bullet-free
+    > li {
+      margin-bottom: $baseLineHeight/2;
+    }
+  }
+}

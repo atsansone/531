@@ -266,7 +266,7 @@ a:hover {
 
 p {
   margin: 0 0 9px; }
-  p small {
+  p small, p dt time, dt p time {
     font-size: 11px;
     color: #999999; }
 
@@ -276,40 +276,40 @@ p {
   font-weight: 200;
   line-height: 27px; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, dt, h4, dd h2, h5, h6 {
   margin: 0;
   font-family: inherit;
   font-weight: bold;
   color: inherit;
   text-rendering: optimizelegibility; }
-  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  h1 small, h1 dt time, dt h1 time, h2 small, h2 dt time, dt h2 time, h3 small, dt small, dt time, h4 small, dd h2 small, h4 dt time, dt h4 time, dd h2 dt time, dt dd h2 time, h5 small, h5 dt time, dt h5 time, h6 small, h6 dt time, dt h6 time {
     font-weight: normal;
     color: #999999; }
 
 h1 {
   font-size: 30px;
   line-height: 36px; }
-  h1 small {
+  h1 small, h1 dt time, dt h1 time {
     font-size: 18px; }
 
 h2 {
   font-size: 24px;
   line-height: 36px; }
-  h2 small {
+  h2 small, h2 dt time, dt h2 time {
     font-size: 18px; }
 
-h3 {
+h3, dt {
   font-size: 18px;
   line-height: 27px; }
-  h3 small {
+  h3 small, dt small, dt time {
     font-size: 14px; }
 
-h4, h5, h6 {
+h4, dd h2, h5, h6 {
   line-height: 18px; }
 
-h4 {
+h4, dd h2 {
   font-size: 14px; }
-  h4 small {
+  h4 small, dd h2 small, h4 dt time, dt h4 time, dd h2 dt time, dt dd h2 time {
     font-size: 12px; }
 
 h5 {
@@ -404,11 +404,11 @@ blockquote {
     font-size: 16px;
     font-weight: 300;
     line-height: 22.5px; }
-  blockquote small {
+  blockquote small, blockquote dt time, dt blockquote time {
     display: block;
     line-height: 18px;
     color: #999999; }
-    blockquote small:before {
+    blockquote small:before, blockquote dt time:before, dt blockquote time:before {
       content: '\2014 \00A0'; }
   blockquote.pull-right {
     float: right;
@@ -416,7 +416,7 @@ blockquote {
     padding-left: 0;
     border-right: 5px solid #eeeeee;
     border-left: 0; }
-    blockquote.pull-right p, blockquote.pull-right small {
+    blockquote.pull-right p, blockquote.pull-right small, blockquote.pull-right dt time, dt blockquote.pull-right time {
       text-align: right; }
 
 q:before, q:after, blockquote:before, blockquote:after {
@@ -428,7 +428,7 @@ address {
   font-style: normal;
   line-height: 18px; }
 
-small {
+small, dt time {
   font-size: 100%; }
 
 cite {
@@ -495,7 +495,7 @@ legend {
   color: #333333;
   border: 0;
   border-bottom: 1px solid #e5e5e5; }
-  legend small {
+  legend small, legend dt time, dt legend time {
     font-size: 13.5px;
     color: #999999; }
 
@@ -3414,7 +3414,7 @@ a.label:hover, a.badge:hover {
   background: #333333;
   background: rgba(0, 0, 0, 0.75); }
 
-.carousel-caption h4, .carousel-caption p {
+.carousel-caption h4, .carousel-caption dd h2, dd .carousel-caption h2, .carousel-caption p {
   color: white; }
 
 .hero-unit {
@@ -3500,7 +3500,7 @@ a.label:hover, a.badge:hover {
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0); }
 
-  .page-header h1 small {
+  .page-header h1 small, .page-header h1 dt time, dt .page-header h1 time {
     display: block;
     line-height: 18px; }
 
@@ -4088,3 +4088,15 @@ a.label:hover, a.badge:hover {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important; } }
+dt {
+  border-bottom: 1px solid #999999;
+  margin-bottom: 17px; }
+  dt time {
+    font-size: 75%; }
+
+dt + dd {
+  margin-bottom: 18px; }
+dd h2 {
+  text-transform: uppercase; }
+dd > ul > li {
+  margin-bottom: 9px; }
