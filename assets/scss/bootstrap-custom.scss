@@ -8,6 +8,38 @@ $serifFontFamily:       "ff-tisa-web-pro", Georgia, "Times New Roman", Times, se
 
 // Then go nuts adding custom styles and stuff...
 
+// MIXINS
+// As of Sass 3.2.0, mixins accept blocks:
+// http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#mixin-content
+
+// Make media queries not suck; just use e.g.,
+// @include iphone { }
+// and go wild
+
+@mixin iphone {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin ipadPortrait {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin ipadLandscape {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin hugeDesktop {
+  @media screen and (min-width: 1280px) {
+    @content;
+  }
+}
+
 // EXTENSIONS
 // Keeping my HTML simple, rather than run wild with all of the Bootstrap classes...
 
@@ -34,5 +66,13 @@ dd {
     > li {
       margin-bottom: $baseLineHeight/2;
     }
+  }
+}
+
+// FULLY CUSTOM STYLES
+
+@include iphone {
+  dt time {
+    display: block;
   }
 }
