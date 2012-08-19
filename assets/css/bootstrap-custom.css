@@ -4104,3 +4104,6 @@ dd > ul > li {
 @media screen and (max-width: 480px) {
   dt time {
     display: block; } }
+@media screen and (min-width: 980px) {
+  body {
+    padding-top: 60px; } }

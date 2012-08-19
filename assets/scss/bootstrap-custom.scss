@@ -77,3 +77,7 @@ dd {
     display: block;
   }
 }
+
+@include ipadLandscape {
+  body { padding-top: 60px; }
+}
