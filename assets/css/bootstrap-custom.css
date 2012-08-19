@@ -4100,3 +4100,7 @@ dd h2 {
   text-transform: uppercase; }
 dd > ul > li {
   margin-bottom: 9px; }
+
+@media screen and (max-width: 480px) {
+  dt time {
+    display: block; } }
