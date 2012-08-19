@@ -2,17 +2,17 @@
 22 The Whole Semester in One Night
 	L2P
 	AgDev
-29 Scaffolding & The Anatomy of a Rails App; Core principles CRUD and DRY
+29 Scaffolding &amp; The Anatomy of a Rails App; Core principles CRUD and DRY
 	AgDev
 
 ### September
-5  Models & Data
+5  Models &amp; Data
   AgDev
   Rails View
-12 Views & Assets
+12 Views &amp; Assets
 	AgDev
 	Rails View
-19 Controllers & Routes
+19 Controllers &amp; Routes
   Guide to Sass
 26  NO CLASS - Stolley at CPTSC
 
@@ -23,10 +23,10 @@
 10 Twitter Bootstrap, Zurb Foundation and other Front-End Frameworks; Sass
   EloJS
   CoffeeScript
-17 Eloquent JavaScript & CoffeeScript
+17 Eloquent JavaScript &amp; CoffeeScript
   EloJS
   CoffeeScript
-24 AJAX & pjax
+24 AJAX &amp; pjax
   Rails Rec
 31 Rails Recipes I
   Rails Rec
@@ -46,7 +46,7 @@ Rails View  :: deeper concepts with views
 
 Rails Recipes :: deeper Rails concepts generally -> sprinkle throughout?
 
-Eloquent JavaScript  :: new syntax, JS practices & style
+Eloquent JavaScript  :: new syntax, JS practices &amp; style
 *Need some kind of jQuery text/set of readings.
 CoffeeScript :: interactivity
 
