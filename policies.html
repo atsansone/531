@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>COM531: Web Application Development</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap-custom.css">
+  <script type="text/javascript" src="//use.typekit.net/oij6xqh.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+  <!--Probably going to bite the bullet and insert the bloated Bootstrap markup for nav here-->
+  <!--Nav notes:
+    * Links to GitHub wiki, Resources (on wiki), Projects (on wiki), Campfire room, Course policies
+  -->
+  <article id="page" class="calendar container-fluid">
+    <header id="header">
+      <h1>Web Application Development</h1>
+    </header>
+    <section id="content">
+      <h1>Course Policies</h1>
+      <dl id="policies">
+        <dt>Basic Information</dt>
+        <dd>
+          <ul>
+            <li><b>COM531</b> Web Application Development</li>
+            <li><b>Instructor</b>: Professor <a href="">Karl Stolley</a></li>
+            <li><b>Office Hours</b>: Tuesdays 3:00 to 5:00 in SH 208 and by appointment</li>
+            <li><b>Class Meetings</b>: Wednesday nights from 6:25 to 9:05</li>
+          </ul>
+        </dd>
+        <dt>Course Description</dt>
+        <dd>
+          A production-intensive course in applied theory and practice of developing web-based
+          applications, emphasizing interface and experience design using HTML5, CSS3, and the DOM;
+          and backend development using Ruby on Rails. Students will learn agile, modular
+          development techniques grounded in open-source technologies, including Ubuntu Linux,
+          version control (Git), Sass, CoffeeScript, jQuery, and Ruby on Rails. Note: students
+          should take <a href="http://courses.karlstolley.com/530/">COM 530: Standards-Based Web
+          Design</a> or have a solid command of Web standards (especially XHTML 1.0 Strict and CSS 1
+          and 2) prior to enrolling in this course.
+        </dd>
+        <dt>Course Goals</dt>
+        <dd>
+          <ol>
+            <li>
+              Learn and employ agile development methods for front- and back-end design of web
+              applications
+            </li>
+            <li>
+              Become familiar with Ruby on Rails and Model-View-Controller (MVC) architecture
+            </li>
+            <li>
+              Develop responsive user interfaces in emerging Web standards, including HTML5 and CSS3
+              while leveraging front-end frameworks such as Twitter Bootstrap
+            </li>
+            <li>
+              Develop foundations in using CoffeeScript/JavaScript and jQuery for manipulating
+              the Document Object Model (DOM)
+            </li>
+            <li>
+              Connect course content to principles and practices in technical communication,
+              information architecture, and technology and humanities
+            </li>
+            <li>
+              Apply course concepts and adjust/extend course projects to fit your own academic and
+              professional interests
+            </li>
+          </ol>
+        </dd>
+        <dt>Books, Materials, and Technology</dt>
+        <dd>
+          <ul>
+            <li>
+              <h2>Required Books <small>Go electronic when possible</small></h2>
+              <ol>
+                <li>
+                  <a href="http://pragprog.com/book/ltp2/learn-to-program">Learn to Program (2nd edition)</a>
+                </li>
+                <li>
+                  <a href="http://eloquentjavascript.net/">Eloquent JavaScript HTML version (free) </a>
+                  or <a href="http://www.amazon.com/Eloquent-JavaScript-Marijn-Haverbeke/dp/1593272820">Print version/Kindle version (not free, but updated &amp; worth it, IMO)</a>
+                </li>
+                <li>
+                  <a href="http://pragprog.com/book/rails4/agile-web-development-with-rails">Agile Web Development with Rails (4th edition)</a></li>
+                <li>
+                  <a href="http://pragprog.com/book/warv/the-rails-view">The Rails View</a>
+                </li>
+                <li>
+                  <a href="http://pragprog.com/book/rr2/rails-recipes">Rails Recipes: Rails 3 Edition</a></li>
+                <li>
+                  <a href="http://pragprog.com/book/pg_sass/pragmatic-guide-to-sass">Pragmatic Guide to Sass</a></li>
+                <li>
+                  <a href="http://pragprog.com/book/tbcoffee/coffeescript">CoffeeScript: Accelerated JavaScript Development</a>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <h2>Highly Recommended Books <small>But not required</small></h2>
+              <ol>
+                <li>
+                  <a href="http://html5forwebdesigners.com/">HTML5 for Web Designers</a>, HTML version (free; TOC at right)
+                </li>
+                <li>
+                <a href="http://pragprog.com/book/tsgit/pragmatic-version-control-using-git">Pragmatic Version Control Using Git</a>
+                </li>
+                <li>
+                  <a href="http://pragprog.com/book/ruby3/programming-ruby-1-9">Programming Ruby 1.9</a>
+                  (3rd edition; aka 'The Pickaxe')
+                </li>
+                <li>
+                  <a href="http://www.amazon.com/Rails-Way-Addison-Wesley-Professional-Ruby/dp/0321601661">The Rails 3 Way</a>
+                </li>
+                <li>
+                  <a href="http://www.amazon.com/Eloquent-Addison-Wesley-Professional-Series-ebook/dp/B004MMEJ36">Eloquent Ruby</a>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <h2>Required Technology</h2>
+              <ol>
+                <li>
+                  A computer running Mac OS X Lion or better, or Ubuntu Linux or another
+                  distribution of Linux/Unix. (If you use Windows, that is your choice, but you will
+                  be on your own; the instructor will not help you with tech problems you
+                  <del>may</del> <ins>will</ins> encounter. The instructor will, however, sit down
+                  with you and personally help you set up a Ubuntu installation on a computer of
+                  your choice. Web development on Windows is like gourmet cooking with an <a href="http://en.wikipedia.org/wiki/Easy-Bake_Oven">Easy-Bake Oven</a>.)
+                </li>
+                <li>
+                  A <a href="http://github.com">GitHub</a> account (free/public or pay/private).
+                  Note that you may use an alias for your username; just be sure to provide it
+                  privately to the instructor.
+                </li>
+                <li>
+                  A private/public key pair on each computer you use, for authenticating to GitHub
+                  and other services.
+                </li>
+                  A 37signals account (to access <a
+                  href="https://karlstolley.campfirenow.com/room/528252">our Campfire chatroom</a>,
+                  both during class and for any special meetings or virtual classses); you will
+                  receive an email invitation for this.
+                </li>
+                <li>
+                  Some kind of sketchbook (paper or digital).
+                </li>
+              </ol>
+            </li>
+          <ul>
+        </dd>
+        <dt>Grades and Grading</dt>
+        <dd>
+          <table class="table table-bordered table-striped">
+            <thead>
+              <th>Component</th>
+              <th>Value</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Project One</td>
+                <td>30 pts</td>
+              </tr>
+              <tr>
+                <td>Project Two</td>
+                <td>30 pts</td>
+              </tr>
+              <tr>
+                <td>Class Participation</td>
+                <td>40 pts</td>
+              </tr>
+              <tr>
+                <td>TOTAL</td>
+                <td>100 pts</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  A = 90+ pts; B= 80-89pts; C=70-79pts; E =< 69 pts
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h2>Grading Criteria</h2>
+          <ul>
+            <li>
+              A - Student has turned in all required components of a project, the work is
+              exceptional in quality, and reflects the student's dedication to adjusting the project
+              to his or her own interests.
+            </li>
+            <li>
+              B - Student has turned in all required components of a project and submitted work that
+              is acceptable as graduate level.
+            </li>
+            <li>
+              C - Student has turned in all required components of a project, but the work is below
+              graduate level.
+            </li>
+            <li>
+              E - Student has not turned in all required components of a project.
+            </li>
+          </ul>
+        </dd>
+        <dt>Attendance and Participation</dt>
+        <dd>
+          Your attendance and active participation are required both for your own success in the
+          class, and for the success of the class as a whole. However, if you absolutely must miss,
+          please contact me ahead of time via email.
+        </dd>
+        <dt>Academic Honesty</dt>
+        <dd>
+          <p>
+            As with any course at IIT, you are expected to uphold the <a
+            href="http://www.iit.edu/student_affairs/handbook/information_and_regulations/code_of_academic_honesty.shtml">Code of Academic Honesty</a> from the <a href="http://www.iit.edu/student_affairs/handbook/">IIT Student Handbook</a>. All work
+            for this course should be your own original effort, including print and digital page
+            design and computer code. Summarizations and quotations of text, as well as any use of
+            open-source code libraries and images not of your own making, should be clearly cited as
+            legally and ethically warranted and rhetorically appropriate.
+          </p>
+          <p>
+            If you are at all uncertain as to whether you are submitting work that in whole or in
+            part may violate the Code of Academic Honesty, please contact me immediately and before
+            the work is due. The consequences of academic dishonesty are severe. Any student who
+            violates the Code of Academic Honesty will be subject to expulsion from this course with
+            a failing grade, and I will report the student to the Chair of the Department of
+            Humanities and the Associate Dean of Graduate Academic Affairs, who may take additional
+            disciplinary action.
+          </p>
+        </dd>
+        <dt>Special Needs Statement</dt>
+        <dd>
+          <p>
+            Reasonable accommodations will be made for students with documented disabilities. In
+            order to receive accommodations, students must obtain a letter of accommodation from the
+            Center for Disability Resources. The Center for Disability Resources (CDR) is located in
+            Life Sciences Room 218. Contact the Center by telephone at 312-567-5744 or via email at
+            disabilities@iit.edu
+          </p>
+          <p>
+            Students who have any difficulty (either permanent or temporary) that might affect their
+            ability to perform in class should contact me privately, either in person or via email,
+            at the start of the semester. Methods, materials, or deadlines will be adapted as
+            required to ensure equitable participation.
+          </p>
+        </dd>
+      </dl>
+    </section>
+    <footer id="footer">
+    </footer>
+  </article>
+  <script src="assets/js/modernizr.js"></script>
+</body>
+</html>
