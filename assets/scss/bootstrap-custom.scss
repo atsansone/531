@@ -3,6 +3,13 @@
 $sansFontFamily:        "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serifFontFamily:       "ff-tisa-web-pro", Georgia, "Times New Roman", Times, serif;
 
+$baseFontSize:          15px;
+$baseLineHeight:        22px !default;
+
+$headingsFontFamily:    $serifFontFamily; // empty to use BS default, @baseFontFamily
+$headingsFontWeight:    bold !default;    // instead of browser default, bold
+$headingsColor:         inherit !default; // empty to use BS default, @textColor
+
 // Then load up bootstrap & bootstrap-responsive
 @import "bootstrap";
 @import "bootstrap-responsive";
@@ -71,13 +78,26 @@ dd {
 }
 
 // FULLY CUSTOM STYLES
+.brand {
+  font-family: $serifFontFamily;
+}
 
+nav {
+  padding-top: 20px;
+}
 @include iphone {
   dt time {
     display: block;
   }
 }
 
+@include ipadPortrait {
+  nav.navbar {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
 @include ipadLandscape {
-  body { padding-top: 60px; }
+
 }
