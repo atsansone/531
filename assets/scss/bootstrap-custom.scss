@@ -30,13 +30,13 @@ $serifFontFamily:       "ff-tisa-web-pro", Georgia, "Times New Roman", Times, se
 }
 
 @mixin ipadLandscape {
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 980px) {
     @content;
   }
 }
 
 @mixin hugeDesktop {
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     @content;
   }
 }
