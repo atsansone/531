@@ -4104,8 +4104,16 @@ dd > ul > li {
 .brand {
   font-family: "ff-tisa-web-pro", Georgia, "Times New Roman", Times, serif; }
 
-nav {
+nav.navbar {
   padding-top: 20px; }
+  nav.navbar .nav > li > a {
+    line-height: 1;
+    padding: 14px;
+    padding-bottom: 8px; }
+
+nav.navbar a.brand {
+  padding: 9px;
+  padding-bottom: 0px; }
 
 .hero-unit {
   font-family: "ff-tisa-web-pro", Georgia, "Times New Roman", Times, serif; }
