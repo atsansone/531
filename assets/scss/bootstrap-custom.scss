@@ -85,6 +85,26 @@ dd {
 nav {
   padding-top: 20px;
 }
+
+.hero-unit {
+  font-family: $serifFontFamily;
+  h1 {
+    font-size: $baseFontSize * 2.5;
+    line-height: $baseLineHeight * 2;
+    margin-bottom: $baseLineHeight;
+  }
+  p {
+    line-height: $baseLineHeight * 1.25;
+    font-style: italic;
+    a.btn {
+      font-style: normal;
+    }
+    + p {
+      margin-top: $baseLineHeight;
+    }
+  }
+}
+
 @include iphone {
   dt time {
     display: block;
@@ -100,4 +120,11 @@ nav {
 
 @include ipadLandscape {
 
+}
+
+@include hugeDesktop {
+  .container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
