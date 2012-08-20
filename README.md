@@ -1,4 +1,4 @@
-# Course Syllabus for COM531: Web Application Development
+# Examples for COM531: Web Application Development
 Professor [Karl Stolley](http://karlstolley.com), Illinois Institute of Technology, Fall 2012
 
-Course materials, website, and wiki.
+Looking for the source for the course syllabus? It’s here on the [``gh-pages`` branch](https://github.com/karlstolley/531/tree/gh-pages).
