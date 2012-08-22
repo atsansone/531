@@ -4104,6 +4104,12 @@ dd h2 {
 .brand {
   font-family: "ff-tisa-web-pro", Georgia, "Times New Roman", Times, serif; }
 
+.label, .badge {
+  line-height: 22px; }
+
+.label {
+  padding: 5px 5px 1px; }
+
 nav.navbar {
   padding-top: 20px; }
   nav.navbar .nav > li > a {

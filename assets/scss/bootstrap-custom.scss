@@ -82,6 +82,13 @@ dd {
   font-family: $serifFontFamily;
 }
 
+.label, .badge {
+  line-height: $baseLineHeight;
+}
+.label {
+  padding: 5px 5px 1px;
+}
+
 nav.navbar {
   padding-top: 20px;
   .nav > li > a {
