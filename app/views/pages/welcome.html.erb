@@ -1,0 +1,20 @@
+<!--This view is rendered for the welcome action on the Pages controller-->
+<h1><%= @page.title %></h1>
+
+<div class="content">
+  <%= @page.content %>
+</div>
+
+<hr />
+<p>
+  The special thing about this page is that it is brought into being by a custom
+  <code>welcome</code> action found in the Pages controller, <code>app/controllers/pages_controller.rb</code>
+  and uses the Rails convention of a matching view in <code>app/views/pages/welcome.html.erb</code>.
+  To pull all the magic together, <code>config/routes.rb</code> declares that the root URL for
+  the site should be mapped to <code>pages#welcome</code>; that is, to the <code>welcome</code>
+  action on the Pages controller.
+</p>
+<p>
+  Don't forget to do remove <code>public/index.html</code> or move it to a different file (as this
+  app did; the original "Welcome aboard" page for rails can still be found at http://localhost:3000/rails_index.html)
+</p>

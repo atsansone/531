@@ -1,4 +1,19 @@
 class PagesController < ApplicationController
+
+  # Get /
+  # See the root route in config/routes.rb
+  def welcome
+    @page = Page.find(1) # Find the page of ID 1; this is created in db/seeds.rb
+                         # Run `rake db:drop` and `rake db:migrate` before running
+                         # `rake db:seed` if you see an error that a record of ID=1
+                         # can't be found.
+
+    respond_to do |format|
+      format.html # welcome.html.erb
+      format.json { render json: @page }
+    end
+  end
+
   # GET /pages
   # GET /pages.json
   def index
