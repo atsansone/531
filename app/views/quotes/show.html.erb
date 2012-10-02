@@ -1,15 +1,13 @@
-<p id="notice"><%= notice %></p>
+<!--Duplicate this markup in the Comments index view.-->
+<blockquote class="hero-unit">
+  <div>
+    <h3><%= @quote.content %></h3>
+    <small>
+      <%= @quote.source %>
+    </small>
+  </div>
+</blockquote>
 
-<p>
-  <b>Content:</b>
-  <%= @quote.content %>
-</p>
+<p><%= link_to pluralize(@quote.comments.count, 'comment'), quote_comments_path(@quote), class: "btn btn-primary" %></p>
 
-<p>
-  <b>Source:</b>
-  <%= @quote.source %>
-</p>
-
-
-<%= link_to 'Edit', edit_quote_path(@quote) %> |
-<%= link_to 'Back', quotes_path %>
+<p><%= link_to 'See all quotations', quotes_path %></p>

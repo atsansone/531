@@ -1,1 +1,33 @@
+<!--Crib this markup from the simplified Quote show view-->
+<blockquote class="hero-unit">
+  <div>
+    <h3><%= @quote.content %></h3>
+    <small>
+      <%= @quote.source %>
+    </small>
+  </div>
+</blockquote>
 
+<!--Only display the comments list if there are comments...-->
+
+<% if @quote.comments.count > 0 %>
+  <ol>
+  <% @quote.comments.each do |comment| %>
+    <li class="well">
+      <p><b><%= comment.username %></b> responded with:</p>
+      <div>
+        <%= comment.content %>
+      </div>
+      <%= link_to 'Destroy', quote_comment_path(@quote,comment), method: :delete, data: { confirm: 'Are you sure?' } %>
+    </li>
+  <% end %>
+  </ol>
+<% end %>
+
+<!--...but always display the form for a new comment.-->
+
+<h2>Have a comment on this quote? Let's hear it.</h2>
+
+<%= render 'form' %>
+
+<p><%= link_to 'See all quotations', quotes_path %></p>
