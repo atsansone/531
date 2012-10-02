@@ -1,10 +1,10 @@
 <!--Duplicate this markup in the Comments index view.-->
 <blockquote class="hero-unit">
   <div>
-    <h3><%= @quote.content %></h3>
-    <small>
-      <%= @quote.source %>
-    </small>
+    <div class="quotation"><%= md @quote.content %></div>
+    <div class="source">
+      <%= md @quote.source %>
+    </div>
   </div>
 </blockquote>
 

@@ -1,10 +1,10 @@
 <!--Crib this markup from the simplified Quote show view-->
 <blockquote class="hero-unit">
   <div>
-    <h3><%= @quote.content %></h3>
-    <small>
-      <%= @quote.source %>
-    </small>
+    <div class="quotation"><%= md @quote.content %></div>
+    <div class="source">
+      <%= md @quote.source %>
+    </div>
   </div>
 </blockquote>
 
@@ -16,7 +16,7 @@
     <li class="well">
       <p><b><%= comment.username %></b> responded with:</p>
       <div>
-        <%= comment.content %>
+        <%= md comment.content %>
       </div>
       <%= link_to 'Delete', quote_comment_path(@quote,comment), class: "btn btn-danger btn-mini pull-right", method: :delete, data: { confirm: 'Are you sure?' } %>
     </li>
