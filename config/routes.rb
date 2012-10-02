@@ -1,7 +1,14 @@
 Myapp::Application.routes.draw do
-  resources :comments
 
-  resources :quotes
+  resources :quotes do
+    resources :comments, :only => [:index, :create, :destroy]
+        # No need to show individual Comments,
+        # or to edit/update existing ones.
+        # Just list all the Comments on a given
+        # Quote, and enable the creation of
+        # a new Comment via a form right on the index.html.erb
+        # view, rather than a separate new.html.erb (thus no :new)
+  end
 
   resources :pages
 
