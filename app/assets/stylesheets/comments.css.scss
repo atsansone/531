@@ -9,3 +9,11 @@
 .container {
   margin-top: $baseLineHeight;
 }
+.hero-unit .quotation * {
+  font-size: $baseFontSize * 2;
+  font-weight: bold;
+  margin-bottom: $baseLineHeight;
+}
+.source {
+  color: $grayLight;
+}
