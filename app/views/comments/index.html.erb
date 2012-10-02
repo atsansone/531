@@ -9,25 +9,27 @@
 </blockquote>
 
 <!--Only display the comments list if there are comments...-->
-
+<div class="row">
 <% if @quote.comments.count > 0 %>
-  <ol>
+  <ol class="span5 offset1">
   <% @quote.comments.each do |comment| %>
     <li class="well">
       <p><b><%= comment.username %></b> responded with:</p>
       <div>
         <%= comment.content %>
       </div>
-      <%= link_to 'Destroy', quote_comment_path(@quote,comment), method: :delete, data: { confirm: 'Are you sure?' } %>
+      <%= link_to 'Delete', quote_comment_path(@quote,comment), class: "btn btn-danger btn-mini pull-right", method: :delete, data: { confirm: 'Are you sure?' } %>
     </li>
   <% end %>
   </ol>
 <% end %>
+</div>
 
 <!--...but always display the form for a new comment.-->
-
-<h2>Have a comment on this quote? Let's hear it.</h2>
+<div class="row">
+<h2 class="offset1">Have a comment on this quote? Let’s hear it.</h2>
 
 <%= render 'form' %>
 
-<p><%= link_to 'See all quotations', quotes_path %></p>
+<p class="offset1"><%= link_to 'See all quotations', quotes_path %></p>
+</div>

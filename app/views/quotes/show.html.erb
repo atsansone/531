@@ -8,6 +8,8 @@
   </div>
 </blockquote>
 
-<p><%= link_to pluralize(@quote.comments.count, 'comment'), quote_comments_path(@quote), class: "btn btn-primary" %></p>
+<div class="row">
+<p class="offset1"><%= link_to pluralize(@quote.comments.count, 'comment'), quote_comments_path(@quote), class: "btn btn-primary" %></p>
 
-<p><%= link_to 'See all quotations', quotes_path %></p>
+<p class="offset1"><%= link_to 'See all quotations', quotes_path %></p>
+</div>
